@@ -1,5 +1,5 @@
 # noinspection PyInterpreter
-__all__ = ["Window"]
+__all__ = ["JuliaModelerWindow"]
 
 import omni.ui as ui
 
@@ -19,7 +19,7 @@ from .data_service import DataService, find_prim_then_select, move_camera
 
 SPACING = 5
 
-class Window(ui.Window):
+class JuliaModelerWindow(ui.Window):
     """The class that represents the window"""
 
     def __init__(self, title: str, delegate=None, **kwargs):
